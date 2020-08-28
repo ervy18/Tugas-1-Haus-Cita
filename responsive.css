@@ -68,8 +68,12 @@
 
 @media all and (max-width: 670px) {
 
-  .header-search .header-in{
-    margin-left: 506px;
-}
+   .header-search .header-sos, .header-search .header-in{
+    margin-left: 600px;
+  }
+
+  .top-wrapper input {
+    margin-right: -160px;
+  }
 
 }
