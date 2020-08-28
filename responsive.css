@@ -42,7 +42,7 @@
 
   .item {
     position: absolute;
-    margin-top: -120px;
+    margin-top: -93px;
     margin-left: 775px;
   }
 
@@ -53,6 +53,7 @@
     table-layout: fixed;
     border-collapse: collapse;
     border-spacing: 0;
+    text-align: left;
     width: 93%;
   }
 
@@ -64,4 +65,3 @@
     margin-left: 877px;
   }
 }
-
