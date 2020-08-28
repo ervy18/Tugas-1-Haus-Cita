@@ -23,7 +23,7 @@ a, li {
 
 .top-wrapper {
   padding: 180px 0 160px 0;
-  background-image: url("SAMPUL.png");
+  background-image: url("./mrpassets/SAMPUL.png");
   background-size: cover;
   color: #fff;
 }
@@ -36,11 +36,12 @@ a, li {
 
 .header-right {
   float: right;
-  margin-top: -140px;
+  margin-top: -155px;
   margin-right: 30px;
 }
 
 .header-right a {
+  float: left;
   margin: 8px;
 }
 
@@ -51,27 +52,16 @@ a, li {
   border-style: solid;
   border-color: white;
   border-radius: 10px;
-  margin: 15px;
+}
+
+.header-search .header-sos, .header-search .header-in{
+  margin-left: 750px;
 }
 
 .top-wrapper input {
   position: absolute;
-  margin-top: 7px;
+  margin-top: 15px;
   margin-left: -155px;
-}
-
-.header-search {
-  margin-left: 863px;
-}
-
-
-.header-list li {
-  float:right;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-bottom:10px;
-  margin-top: 8px;
-  font-weight: bold;
 }
 
 .header-bottom {
@@ -169,20 +159,20 @@ a, li {
   text-align: center;
   color: #fff;
   margin-top: -80px;
-  margin-left: 1120px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  margin-left: 1050px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   padding-left: 45px;
   padding-right: 45px;
 }
 
 .item .catatan, .pengaturan, .kalender {
   margin-top: 3px;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 
 .item h1 {
-  font-size: 60px;
+  font-size: 70px;
   margin-bottom: -7px;
 }
 
