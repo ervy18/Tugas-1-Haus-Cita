@@ -42,7 +42,13 @@ a, li {
 
 .header-right a {
   float: left;
-  margin: 8px;
+  margin: 10px;
+}
+
+.header-list a {
+  font-weight: 500;
+  margin-top: -1px;
+  letter-spacing: 0.2px;
 }
 
 .header-right input {
@@ -55,7 +61,7 @@ a, li {
 }
 
 .header-search .header-sos, .header-search .header-in{
-  margin-left: 750px;
+  margin-left: 776px;
 }
 
 .top-wrapper input {
