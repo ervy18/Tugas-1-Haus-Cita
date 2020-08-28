@@ -66,8 +66,8 @@ a, li {
 
 .top-wrapper input {
   position: absolute;
-  margin-top: 15px;
-  margin-left: -155px;
+  margin-top: 18px;
+  margin-left: -160px;
 }
 
 .header-bottom {
@@ -115,7 +115,8 @@ a, li {
   background-color: white;
   width: 45%;
   float: left;
-  margin: 10px
+  margin: 10px;
+  font-family: "Calibri", sans-serif;
 }
 
 
@@ -124,7 +125,8 @@ a, li {
   margin-bottom: 15px;
   margin-top: 20px;
   padding-left: 20px;
-  font-size: 35px
+  font-size: 35px;
+  font-family: "Leelawadee", sans-serif;
 }
 
 .card-wrapper p{
@@ -164,17 +166,17 @@ a, li {
   background-color: rgb(31,135,83);
   text-align: center;
   color: #fff;
-  margin-top: -80px;
-  margin-left: 1050px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  margin-top: -90px;
+  margin-left: 1128px;
+  padding-top: -3px;
+  padding-bottom: -2px;
   padding-left: 45px;
   padding-right: 45px;
 }
 
 .item .catatan, .pengaturan, .kalender {
-  margin-top: 3px;
-  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: 35px;
 }
 
 .item h1 {
@@ -189,16 +191,17 @@ a, li {
 
 .tabel a {
   position: absolute;
-  margin-left: 1210px;
+  margin-left: 593px;
   margin-top: -22px;
 }
 
 table {
+  font-family: "Calibri", sans-serif;
   margin-left: 50px;
   margin-right: 50px;
-  margin-top: 40px;
+  margin-top: 30px;
   margin-bottom: 40px;
-  text-align: left;
+  text-align: center;
 }
 
 table p {
