@@ -69,8 +69,8 @@
 @media all and (max-width: 670px) {
 
    .top-wrapper input {
-    position: absolute;
-    margin left: 100px;
+    position: relative;
+    margin-left: -250px;
   }
 
 }
