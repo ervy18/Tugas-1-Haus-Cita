@@ -1,0 +1,413 @@
+/* ALL VERSION */
+* {
+  font-family: "Calibri";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li, a {
+  list-style: none;
+  color: white;
+}
+
+a:hover {
+  color: rgb(255, 186, 0);
+}
+
+.bodyy {
+  background-color: rgb(234, 234, 235);
+}
+
+.btn:focus, .btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+input:focus, input:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* jumbotron */
+.jumbotron {
+  background-image: url("SAMPULedit.png");
+  background-size: cover;
+  color: white;
+  height: 250px;
+  padding-top: 40px;
+  margin-bottom: 10px;
+}
+
+.jumbotron .header {
+  display: none;
+  text-transform: uppercase;
+}
+
+/* navbar all version*/
+.navbar-brand img {
+  height: 40px;
+}
+
+.navbar .navbar-nav{
+  margin: 10px 0px 10px 20px;
+}
+
+.navbar .nav-link {
+  text-transform: uppercase;
+  color:rgb(10, 74, 56) !important;
+  margin-right: 20px;
+}
+
+.navbar .nav-link:hover::after {
+  content: '';
+  display: block;
+  border-bottom: 2px solid rgb(10, 74, 56);
+  margin-bottom: -2px;
+}
+
+.navbar .dropdown-menu {
+  margin-top: 13px;
+  border: none;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  background-color: rgb(234, 234, 235);
+  color:rgb(10, 74, 56) !important;
+}
+
+.navbar .dropdown-item {
+  color:rgb(10, 74, 56) !important;
+}
+
+/* navbar desktop version */
+.navbar-desktop {
+  display: none;
+}
+
+.navbar-desktop nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0 0 0;
+}
+
+.navbar-desktop nav ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-desktop .nav-link{
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(10, 74, 56);
+  align-items: center;
+  padding: 20px 0 0 0;
+}
+
+.navbar-desktop .nav-link:hover{
+  color: rgb(180, 102, 23);
+}
+
+.navbar-desktop .dropdown-menu {
+  border: none;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  background-color: rgb(234, 234, 235);
+  color:rgb(10, 74, 56) !important;
+}
+
+.navbar-desktop .dropdown-item {
+  color:rgb(10, 74, 56) !important;
+}
+
+/* garis */
+hr {
+  display: none;
+  border: 1px solid rgb(10, 74, 56);
+  margin-top: 0;
+}
+
+/* info panel */
+.info {
+  background-color: rgb(10, 74, 56);
+  width: 100%;
+  padding: 20px 20px 10px 20px;
+  margin: 10px 0;
+}
+
+.info:hover {
+  background-color: rgb(109, 151, 115);
+}
+
+.info img {
+  width: 60px;
+  height: 60px;
+}
+
+.info p, .info h1 {
+  text-align: right;
+}
+
+.info p {
+  margin-bottom: -10px;
+  margin-top: 15px;
+  color: rgb(109, 151, 115);
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.info:hover p{
+  color: rgb(10, 74, 56);
+}
+
+.info h1 {
+  color: rgb(255, 186, 0);
+  margin-bottom: 15px;
+  font-size: 55px;
+}
+
+.info:hover h1{
+  color:rgb(10, 74, 56);
+}
+
+.info a {
+  color: rgb(10, 74, 56);
+  background-color: rgb(109, 151, 115);
+  font-style: italic;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.info:hover a {
+  color: rgb(109, 151, 115);
+  background-color: rgb(10, 74, 56);
+}
+
+/* info tabels, kass, keterangans */
+.tabkasket {
+  display: grid;
+  grid-template-areas:
+    'tables'
+    'tables'
+    'kass'
+    'kass'
+    'kass'
+    'keterangans';
+  margin-bottom: 20px;
+}
+
+/* tables */
+.tables {
+  grid-area: tables;
+}
+
+.tabel {
+  margin: 10px 0;
+  padding: 20px;
+}
+
+/* kass */
+.kass {
+  grid-area: kass;
+}
+
+.kas {
+  border: 3px solid rgb(10, 74, 56);
+  color: rgb(10, 74, 56);
+  padding: 20px;
+  width: 100%;
+  text-align: right;
+  margin: 10px 0;
+}
+
+.kas:hover {
+  border: 3px solid rgb(180, 102, 23);
+}
+
+.kas img {
+  height: 110px;
+  width: auto;
+  float: left;
+}
+
+.kas h5 {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.kas h1 {
+  font-weight: bold;
+  font-size: 38px;
+  text-align: center;
+}
+
+.kas a {
+  color: rgb(10, 74, 56);
+  background-color: rgb(180, 102, 23);
+  font-style: italic;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.kas:hover a {
+  background-color: rgb(10, 74, 56);
+  color: rgb(255, 186, 0);
+}
+
+/* keterangans */
+.keterangans {
+  grid-area: keterangans;
+  background-color: rgb(109, 151, 115);
+  color: rgb(255, 186, 0);
+  margin: 10px 0;
+  padding: 30px 30px;
+  text-align: right;
+}
+
+.keterangan {
+  margin: 0 0 60px 0;
+}
+
+.keterangan h6 {
+  font-weight: bold;
+  padding: 13px 0;
+  text-align: center;
+}
+
+.keterangan p {
+  color: rgb(10, 74, 56);
+  font-size: 18px;
+  text-align: center;
+}
+
+.keterangan a {
+  background-color: rgb(10, 74, 56);
+  color: rgb(255, 186, 0);
+  font-style: italic;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.keterangan a:hover {
+  color: rgb(10, 74, 56);
+  background-color: rgb(180, 102, 23);
+}
+
+/* footer */
+.footer nav {
+  background-color: rgb(10, 74, 56);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px 0 20px;
+}
+
+.footer nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer nav p {
+  font-size: 10px;
+  margin-left: 30px;
+  color: white;
+}
+
+/* Utility */
+input {
+  border: 2px solid rgb(10, 74, 56);
+  background-color: rgb(255, 186, 0);
+  border-radius: 50px;
+  margin-top: 0.6vw;
+  padding-left: 5px;
+}
+
+input::-webkit-input-placeholder{
+	color: rgb(10, 74, 56);
+}
+
+a {
+  padding: 1px 15px;
+}
+
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+.navbar {
+  display: none;
+}
+
+.navbar-desktop {
+  display: block;
+}
+
+.navbar-brand img {
+height: 60px;
+}
+
+.jumbotron {
+  height: 320px;
+  margin-bottom: 10px;
+}
+
+.jumbotron .header {
+  display: block;
+}
+
+hr {
+  display: block;
+}
+
+.info-panel {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  width: 24%;
+}
+
+.tabkasket {
+  grid-template-columns: 65% 33%;
+  grid-template-areas:
+    'tables keterangans'
+    'tables keterangans'
+    'kass keterangans';
+ justify-content: space-between;
+}
+
+.kass {
+  grid-area: kass;
+  display: flex;
+  justify-content: space-between;
+}
+
+.kas {
+  width: 32%;
+  text-align: center;
+}
+
+.kas img {
+  float: none;
+}
+
+.kas h1 {
+  text-align: left;
+}
+}
+
+/* LANDSCAPE-POTRAIT PHONES VERSION */
+@media (min-width: 576px) and (max-width: 992px) {
+  .info-panel {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .info {
+    width: 49%;
+    margin:5px 0;
+  }
+}
