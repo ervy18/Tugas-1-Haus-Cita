@@ -413,7 +413,12 @@ hr {
 }
 
 /* EXTRA SMALL DEVICES */
+/* EXTRA SMALL DEVICES */
 @media (max-width: 575.98px) {
+  .program-belajar img{
+    display: none;
+  }
+
   .footer-left img {
     height: 25px;
   }
@@ -430,3 +435,4 @@ hr {
     margin-left: 18px !important;
   }
  }
+
