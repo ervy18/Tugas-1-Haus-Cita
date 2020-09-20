@@ -411,3 +411,22 @@ hr {
     margin:5px 0;
   }
 }
+
+/* EXTRA SMALL DEVICES */
+@media (max-width: 575.98px) {
+  .footer-left img {
+    height: 25px;
+  }
+
+  .footer-input img {
+    height: 0px;
+  }
+
+  .footer input {
+    display: none;
+  }
+
+  .footer-left p {
+    margin-left: 18px !important;
+  }
+ }
